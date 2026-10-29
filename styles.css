@@ -18,3 +18,7 @@
 @media(max-width:760px){.award-feature{grid-template-columns:1fr;gap:25px;padding:24px;margin-bottom:32px}.award-feature h3{font-size:35px}.award-badge{font-size:10px}.dust-schematic{min-height:250px}.dust-track{top:65px}.dust-law{top:102px;font-size:23px}.case-actions{align-items:flex-start;flex-direction:column;gap:12px;margin-bottom:40px}.model-equations{padding:20px}.model-equations small{font-size:11px}}
 
 .archive-links{list-style:none;padding:0;margin:24px 0}.archive-links li{padding:15px 0;border-bottom:1px solid var(--line)}
+
+/* Homepage follows project numbers in DOM and visual reading order. */
+.work-sequence{display:grid;gap:40px}.work-sequence>.award-feature{margin:0}.work-sequence>.project-grid-pair{grid-template-columns:repeat(2,minmax(0,1fr))}.work-sequence>.project-grid-pair .card-visual img{height:100%;object-fit:contain}
+@media(max-width:760px){.work-sequence{gap:35px}.work-sequence>.project-grid-pair{grid-template-columns:1fr}}
